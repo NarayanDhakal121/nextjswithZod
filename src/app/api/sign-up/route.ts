@@ -10,6 +10,7 @@ export async function POST(request: Request){
     await connectDb()
 
     try {
+  
      const{username, email, password}  = await request.json()
         
     } catch (error) {
